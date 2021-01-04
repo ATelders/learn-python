@@ -1,0 +1,10 @@
+print("Date du jour")
+date = str(input())
+print("Calories au petit déjeuner ?")
+calories_petitdej = int(input())
+print("Calories au déjeuner ?")
+calories_dejeuner = int(input())
+print("Calories au goûter ?")
+calories_gouter = int(input())
+calories_total = calories_petitdej + calories_dejeuner + calories_gouter
+print("Le nombre de calories pour " + date + " est: " + str(calories_total) + " calories")
